@@ -8,7 +8,7 @@ function App() {
   const [username, setUsername] = useState("");
 
   useEffect(() => {
-    const socket = new WebSocket("ws://localhost:8765"); // 👈 connect to Python server
+    const socket = new WebSocket("wss://securechat-backend.onrender.com"); // 👈 connect to Python server
     socket.onmessage = (event) => {
       setMessages((prev) => [...prev, event.data]);
     };

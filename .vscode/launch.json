@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SecureChat}",
+            "name": "Debug SecureChat",
+            "program": "${workspaceFolder:SecureChat}/.build/debug/SecureChat",
+            "preLaunchTask": "swift: Build Debug SecureChat"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SecureChat}",
+            "name": "Release SecureChat",
+            "program": "${workspaceFolder:SecureChat}/.build/release/SecureChat",
+            "preLaunchTask": "swift: Build Release SecureChat"
+        }
+    ]
+}

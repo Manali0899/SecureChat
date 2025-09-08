@@ -65,7 +65,7 @@ pip install -r requirements.txt
 python3 server.py
 
 
-Server will run at: ws://localhost:8765
+Server will run at local:
 
 3. Frontend (React)
 cd securechat-frontend
@@ -73,8 +73,7 @@ npm install
 npm start
 
 
-Frontend runs at: http://localhost:3000
-
+Frontend runs at Local:
 
 
 🔮 Future Enhancements
